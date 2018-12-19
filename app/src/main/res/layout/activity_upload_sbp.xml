@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haticekocaosmanlar.machinemaintenance.UploadSBP">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STANDART BAKIM/ARIZA PROSEDÜRÜ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Konu"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Birim"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sbpequipmant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ekipman İsmi"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sbpitemNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Item No"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sbpNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="SBP No"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/preparer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hazırlayan"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sbpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tarih(GG/AA/YYYY)"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bakım Tipi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/bt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Arızi Onarım"
+                    android:onClick="maintenanceType"/>
+
+                <RadioButton
+                    android:id="@+id/bt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Periyodik Kontrol"
+                    android:onClick="maintenanceType"/>
+
+                <RadioButton
+                    android:id="@+id/bt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Periyodik Değişim"
+                    android:onClick="maintenanceType"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bakım Frekansı"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/bf1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Haftalık"
+                    android:onClick="maintenancefrequence"/>
+
+                <RadioButton
+                    android:id="@+id/bf2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aylık"
+                    android:onClick="maintenancefrequence"/>
+
+                <RadioButton
+                    android:id="@+id/bf3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 Aylık"
+                    android:onClick="maintenancefrequence"/>
+
+                <RadioButton
+                    android:id="@+id/bf4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6 Aylık"
+                    android:onClick="maintenancefrequence"/>
+
+                <RadioButton
+                    android:id="@+id/bf5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 Yıllık"
+                    android:onClick="maintenancefrequence"/>
+
+                <RadioButton
+                    android:id="@+id/bf6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 Yıllık"
+                    android:onClick="maintenancefrequence"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/maintenanceTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bakım Süresi"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kullanılacak Ekipman Durum"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/spare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yedek Parça"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/handtool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kullanılacak El Aletleri"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/aim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Amaç"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/operations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yapılacak İşlemler"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/saveSBP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="saveSBP"
+                android:text="SAVE" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

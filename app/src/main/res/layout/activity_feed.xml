@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.haticekocaosmanlar.machinemaintenance.FeedActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/machineInfo"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="58dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:onClick="machineInfo"
+        android:text="Makine Görüntüle"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/maintenance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/maintenance"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:onClick="maintenance"
+        android:text="Bakım Emri Görüntüle"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ewo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sbpInfo"
+        android:layout_width="310dp"
+        android:layout_height="80sp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:onClick="sbpinfo"
+        android:text="Standart Arıza/Bakım Prosedürü Görüntüle"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ewo"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:onClick="ewo"
+        android:text="Emergency Work Order -EWO"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/sbpInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

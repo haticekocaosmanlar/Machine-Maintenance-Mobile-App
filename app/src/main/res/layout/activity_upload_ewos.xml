@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ARIZA ANALİZ VE MÜDAHALE FORMU - EMERGENCY WORK ORDER"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/isEmri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="İş Emri No"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/machineItemN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Makine İtem No"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/equipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Alt Ekipman"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/component"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Komponent"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/breakdownDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Arıza Tarih ve Saati (GG/AA/YYYY SS:DD)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/breakdownType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Arıza Tipi(Elektrik/Mekanik/Elektronik)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/manitainerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bakımcı Sicil"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/solutionDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yapılan Müdahalenin Tanımı"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/spareParts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kullanılan Yedek Parçalar"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5N + 1K ANALİZİ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ne?"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/when"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ne Zaman?"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/where"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nerede?"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/who"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kim?"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/howmuch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ne Kadar?"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/how"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nasıl?"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Olası Nedenler ve Doğrulaması"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/reasons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kök Sebepe Karşı Alınan Önlemler"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/actions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Süreklilik İçin Yapılacak Faaliyetler"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/continuity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/koksebeptipi" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dış Etkenler(Sıcaklık,Titreşim,Nem vs.)"
+                    android:onClick="rootCause"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bakımcının Eksik Becerisi"
+                    android:onClick="rootCause"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Üretici Firma Kaynaklı Tasarım Hatası"
+                    android:onClick="rootCause"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profesyonel Bakım Eksikliği"
+                    android:onClick="rootCause"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Uygun Olmayan Operasyon"
+                    android:onClick="rootCause"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temel Şartların Korunmaması(Temizlik, Yağlama vs.)"
+                    android:onClick="rootCause"/>
+
+            </RadioGroup>
+
+
+
+            <EditText
+                android:id="@+id/mCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Arızaya Katılan Bakımcı Sayısı"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/analyst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Analizi Yapan"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tarih(GG/AA/YYYY)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/oCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Arızaya Katılan Operatör Sayısı"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/screener"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Faaliyetleri Kapatan"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="saveEWO"
+                android:text="SAVE" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

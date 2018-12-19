@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538065026549",
+    "firebase_url": "https://machinemaintenance-ea94f.firebaseio.com",
+    "project_id": "machinemaintenance-ea94f",
+    "storage_bucket": "machinemaintenance-ea94f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538065026549:android:2a3716dacff2338f",
+        "android_client_info": {
+          "package_name": "com.haticekocaosmanlar.machinemaintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538065026549-808jcs5hluk5ht8itb5297oevggicdnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haticekocaosmanlar.machinemaintenance",
+            "certificate_hash": "9e3efee328aa4a10a3ffefc2d2412d60f9ffb8c5"
+          }
+        },
+        {
+          "client_id": "538065026549-r1phkstcoouodcqeb40qkdibrtcfv7hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1bJSTyiSxOinES9EKVfm4deAcsqnwC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538065026549-r1phkstcoouodcqeb40qkdibrtcfv7hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

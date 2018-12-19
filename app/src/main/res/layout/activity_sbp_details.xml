@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haticekocaosmanlar.machinemaintenance.sbpDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="KONU:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/subjecttxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="BİRİM:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/unittxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="EKİPMAN İSMİ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sbpequipmenttxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="ITEM NO:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sbpitemNotxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="SBP NO:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sbpNotxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="HAZIRLAYAN:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/preparertxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="TARİH(GG/AA/YYYY):"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sbpdatetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="BAKIM TİPİ:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/maintenaceTypetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="BAKIM FREKANSI:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/maintenanceFreqtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="BAKIM SÜRESİ:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/maintenanceTimetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="KULLANILACAK EKİPMAN DURUM:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/statetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="YEDEK PARÇA:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sparetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="KULLANILACAK EL ALETLERİ:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/handtooltxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="AMAÇ:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/aimtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:scrollbarSize="18dp"
+                android:text="YAPILACAK İŞLEMLER:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/operationstxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
