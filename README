@@ -1,0 +1,17 @@
+This project was final year project of my Industrial Engineering Degree.
+
+Title of the Project: Machine Maintenance Decision Support System Mobile Application
+•	Machine Maintenance Decision Support System Mobile Application has done with Android Studio development environment and Firebase database. 
+
+Achievements:
+•	Project was capstone project for Industrial Engineering and worked with Turkish Aerospace Industries(TAI). 
+•	Application shows machine information, maintenance calendars (daily, monthly, yearly basis), emergency work orders, standard breakdown and maintenance procedures which stores and give information how breakdown and maintenance issues solved before, what are the steps technician needs to follow to fix it again, which spare parts used, what is the root cause, what technician needs to do to make it continuous etc. Authorized user can upload/see/change information on that system with the help of Firebase real-time database. 
+
+Results: 
+•	Project side: use of new technology(Android Studio, Firebase); performances improvement on breakdown fixing and maintenance time; functional requirements fulfillment; end user satisfaction
+•	My side: practice of new technology; new functional skills(android)
+
+Technical environment:
+•	Software | Android Studio
+•	Language | Java
+•	Database | Firebase
